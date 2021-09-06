@@ -4,5 +4,4 @@ This is an Android application that plays a sound of the selected note (every no
 
 You can install it using the latest `apk` file from Releases.
 
-For the equivalent desktop application see <a ref='https://github.com/dimitris47/diapasonfx'>DiapasonFX</a>.
-# diapasonm
+For the equivalent desktop application see [DiapasonFX](https://github.com/dimitris47/diapasonfx).
