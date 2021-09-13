@@ -6,15 +6,13 @@ import android.media.AudioTrack;
 
 public class Tone {
 
-    final static int duration = 1;
     final static int sampleRate = 44100;
-    final static int numSamples = duration * sampleRate;
-    final static double[] samples = new double[numSamples];
-    final static short[] buffer = new short[numSamples];
-
     static AudioTrack audioTrack;
 
-    public Tone(double freq) {
+    public Tone(double freq, int duration) {
+        final int numSamples = duration * sampleRate;
+        final double[] samples = new double[numSamples];
+        final short[] buffer = new short[numSamples];
         for (int i = 0; i < numSamples; ++i) {
             samples[i] = Math.sin(2 * Math.PI * i / (sampleRate / freq));
             buffer[i] = (short) (samples[i] * Short.MAX_VALUE);
@@ -36,7 +34,7 @@ public class Tone {
             audioTrack.flush();
             audioTrack.stop();
             audioTrack.release();
-
+            audioTrack = null;
         }
     }
 }
