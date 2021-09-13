@@ -19,11 +19,6 @@
             android:orientation="horizontal"
             android:layout_marginLeft="8dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/a4_hz" />
-
             <Spinner
                 android:id="@+id/freqSpinner"
                 android:layout_width="match_parent"

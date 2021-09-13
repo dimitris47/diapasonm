@@ -23,7 +23,7 @@ public class Tone {
                 sampleRate,
                 AudioFormat.CHANNEL_OUT_MONO,
                 AudioFormat.ENCODING_PCM_16BIT,
-                buffer.length,
+                buffer.length * 2,
                 AudioTrack.MODE_STATIC);
         audioTrack.write(buffer, 0, buffer.length);
         audioTrack.play();

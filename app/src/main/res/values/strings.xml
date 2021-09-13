@@ -5,104 +5,104 @@
     <string name="stop">stop</string>
 
     <string-array name="freq_array" >
-        <item>"392"</item>
-        <item>"393"</item>
-        <item>"394"</item>
-        <item>"395"</item>
-        <item>"396"</item>
-        <item>"397"</item>
-        <item>"398"</item>
-        <item>"399"</item>
-        <item>"400"</item>
-        <item>"401"</item>
-        <item>"402"</item>
-        <item>"403"</item>
-        <item>"404"</item>
-        <item>"405"</item>
-        <item>"406"</item>
-        <item>"407"</item>
-        <item>"408"</item>
-        <item>"409"</item>
-        <item>"410"</item>
-        <item>"411"</item>
-        <item>"412"</item>
-        <item>"413"</item>
-        <item>"414"</item>
-        <item>"415"</item>
-        <item>"416"</item>
-        <item>"417"</item>
-        <item>"418"</item>
-        <item>"419"</item>
-        <item>"420"</item>
-        <item>"421"</item>
-        <item>"422"</item>
-        <item>"423"</item>
-        <item>"424"</item>
-        <item>"425"</item>
-        <item>"426"</item>
-        <item>"427"</item>
-        <item>"428"</item>
-        <item>"429"</item>
-        <item>"430"</item>
-        <item>"431"</item>
-        <item>"432"</item>
-        <item>"433"</item>
-        <item>"434"</item>
-        <item>"435"</item>
-        <item>"436"</item>
-        <item>"437"</item>
-        <item>"438"</item>
-        <item>"439"</item>
-        <item>"440"</item>
-        <item>"441"</item>
-        <item>"442"</item>
-        <item>"443"</item>
-        <item>"444"</item>
-        <item>"445"</item>
-        <item>"446"</item>
-        <item>"447"</item>
-        <item>"448"</item>
-        <item>"449"</item>
-        <item>"450"</item>
-        <item>"451"</item>
-        <item>"452"</item>
-        <item>"453"</item>
-        <item>"454"</item>
-        <item>"455"</item>
-        <item>"456"</item>
-        <item>"457"</item>
-        <item>"458"</item>
-        <item>"459"</item>
-        <item>"460"</item>
-        <item>"461"</item>
-        <item>"462"</item>
-        <item>"463"</item>
-        <item>"464"</item>
-        <item>"465"</item>
-        <item>"466"</item>
-        <item>"467"</item>
-        <item>"468"</item>
-        <item>"469"</item>
-        <item>"470"</item>
-        <item>"471"</item>
-        <item>"472"</item>
-        <item>"473"</item>
-        <item>"474"</item>
-        <item>"475"</item>
-        <item>"476"</item>
-        <item>"477"</item>
-        <item>"478"</item>
-        <item>"479"</item>
-        <item>"480"</item>
-        <item>"481"</item>
-        <item>"482"</item>
-        <item>"483"</item>
-        <item>"484"</item>
-        <item>"485"</item>
-        <item>"486"</item>
-        <item>"487"</item>
-        <item>"488"</item>
-        <item>"489"</item>
+        <item>"a4 = 392Hz"</item>
+        <item>"a4 = 393Hz"</item>
+        <item>"a4 = 394Hz"</item>
+        <item>"a4 = 395Hz"</item>
+        <item>"a4 = 396Hz"</item>
+        <item>"a4 = 397Hz"</item>
+        <item>"a4 = 398Hz"</item>
+        <item>"a4 = 399Hz"</item>
+        <item>"a4 = 400Hz"</item>
+        <item>"a4 = 401Hz"</item>
+        <item>"a4 = 402Hz"</item>
+        <item>"a4 = 403Hz"</item>
+        <item>"a4 = 404Hz"</item>
+        <item>"a4 = 405Hz"</item>
+        <item>"a4 = 406Hz"</item>
+        <item>"a4 = 407Hz"</item>
+        <item>"a4 = 408Hz"</item>
+        <item>"a4 = 409Hz"</item>
+        <item>"a4 = 410Hz"</item>
+        <item>"a4 = 411Hz"</item>
+        <item>"a4 = 412Hz"</item>
+        <item>"a4 = 413Hz"</item>
+        <item>"a4 = 414Hz"</item>
+        <item>"a4 = 415Hz"</item>
+        <item>"a4 = 416Hz"</item>
+        <item>"a4 = 417Hz"</item>
+        <item>"a4 = 418Hz"</item>
+        <item>"a4 = 419Hz"</item>
+        <item>"a4 = 420Hz"</item>
+        <item>"a4 = 421Hz"</item>
+        <item>"a4 = 422Hz"</item>
+        <item>"a4 = 423Hz"</item>
+        <item>"a4 = 424Hz"</item>
+        <item>"a4 = 425Hz"</item>
+        <item>"a4 = 426Hz"</item>
+        <item>"a4 = 427Hz"</item>
+        <item>"a4 = 428Hz"</item>
+        <item>"a4 = 429Hz"</item>
+        <item>"a4 = 430Hz"</item>
+        <item>"a4 = 431Hz"</item>
+        <item>"a4 = 432Hz"</item>
+        <item>"a4 = 433Hz"</item>
+        <item>"a4 = 434Hz"</item>
+        <item>"a4 = 435Hz"</item>
+        <item>"a4 = 436Hz"</item>
+        <item>"a4 = 437Hz"</item>
+        <item>"a4 = 438Hz"</item>
+        <item>"a4 = 439Hz"</item>
+        <item>"a4 = 440Hz"</item>
+        <item>"a4 = 441Hz"</item>
+        <item>"a4 = 442Hz"</item>
+        <item>"a4 = 443Hz"</item>
+        <item>"a4 = 444Hz"</item>
+        <item>"a4 = 445Hz"</item>
+        <item>"a4 = 446Hz"</item>
+        <item>"a4 = 447Hz"</item>
+        <item>"a4 = 448Hz"</item>
+        <item>"a4 = 449Hz"</item>
+        <item>"a4 = 450Hz"</item>
+        <item>"a4 = 451Hz"</item>
+        <item>"a4 = 452Hz"</item>
+        <item>"a4 = 453Hz"</item>
+        <item>"a4 = 454Hz"</item>
+        <item>"a4 = 455Hz"</item>
+        <item>"a4 = 456Hz"</item>
+        <item>"a4 = 457Hz"</item>
+        <item>"a4 = 458Hz"</item>
+        <item>"a4 = 459Hz"</item>
+        <item>"a4 = 460Hz"</item>
+        <item>"a4 = 461Hz"</item>
+        <item>"a4 = 462Hz"</item>
+        <item>"a4 = 463Hz"</item>
+        <item>"a4 = 464Hz"</item>
+        <item>"a4 = 465Hz"</item>
+        <item>"a4 = 466Hz"</item>
+        <item>"a4 = 467Hz"</item>
+        <item>"a4 = 468Hz"</item>
+        <item>"a4 = 469Hz"</item>
+        <item>"a4 = 470Hz"</item>
+        <item>"a4 = 471Hz"</item>
+        <item>"a4 = 472Hz"</item>
+        <item>"a4 = 473Hz"</item>
+        <item>"a4 = 474Hz"</item>
+        <item>"a4 = 475Hz"</item>
+        <item>"a4 = 476Hz"</item>
+        <item>"a4 = 477Hz"</item>
+        <item>"a4 = 478Hz"</item>
+        <item>"a4 = 479Hz"</item>
+        <item>"a4 = 480Hz"</item>
+        <item>"a4 = 481Hz"</item>
+        <item>"a4 = 482Hz"</item>
+        <item>"a4 = 483Hz"</item>
+        <item>"a4 = 484Hz"</item>
+        <item>"a4 = 485Hz"</item>
+        <item>"a4 = 486Hz"</item>
+        <item>"a4 = 487Hz"</item>
+        <item>"a4 = 488Hz"</item>
+        <item>"a4 = 489Hz"</item>
     </string-array>
 
     <string-array name="dur_array" >
