@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
+        Tone.stopTone();
         this.moveTaskToBack(true);
     }
 }

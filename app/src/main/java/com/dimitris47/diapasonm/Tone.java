@@ -19,19 +19,24 @@ public class Tone {
             samples[i] = Math.sin(2 * Math.PI * i / (sampleRate / freq));
             buffer[i] = (short) (samples[i] * Short.MAX_VALUE);
         }
-        if (audioTrack != null) {
-            audioTrack.flush();
-            audioTrack.stop();
-            audioTrack.release();
-        }
+        stopTone();
         audioTrack = new AudioTrack(
                 AudioManager.STREAM_MUSIC,
                 sampleRate,
                 AudioFormat.CHANNEL_OUT_MONO,
                 AudioFormat.ENCODING_PCM_16BIT,
-                buffer.length * 2 / 3,
+                buffer.length,
                 AudioTrack.MODE_STATIC);
         audioTrack.write(buffer, 0, buffer.length);
         audioTrack.play();
+    }
+
+    public static void stopTone() {
+        if (audioTrack != null) {
+            audioTrack.flush();
+            audioTrack.stop();
+            audioTrack.release();
+
+        }
     }
 }
