@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             369.994, 391.995, 415.305, 440.000, 466.164, 493.883};
     Spinner freqSpinner;
     Spinner durSpinner;
+    Button stopBtn;
     public static int duration = 1;
 
     @SuppressLint("SourceLockedOrientationActivity")
@@ -40,12 +41,13 @@ public class MainActivity extends AppCompatActivity {
         freqSpinner = findViewById(R.id.freqSpinner);
         freqSpinner.setSelection(48);
         durSpinner = findViewById(R.id.durSpinner);
+        stopBtn = findViewById(R.id.stopBtn);
 
         durSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String selected = parent.getItemAtPosition(position).toString();
-                duration = Integer.parseInt(selected);
+                duration = Integer.parseInt(selected.split(" sec")[0]);
             }
             @Override
             public void onNothingSelected(AdapterView<?> parent) {}
@@ -61,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
                 new Tone((defFreq[finalI] * (spinnerPos + 392) / 440), duration);
             });
         }
+
+        stopBtn.setOnClickListener(v -> Tone.stopTone());
     }
 
     @Override

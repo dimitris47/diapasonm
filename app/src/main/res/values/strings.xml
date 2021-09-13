@@ -2,6 +2,7 @@
     <string name="app_name">DiapasonM</string>
     <string name="a4_hz">a4 (Hz):</string>
     <string name="duration_sec">duration (sec):</string>
+    <string name="stop">stop</string>
 
     <string-array name="freq_array" >
         <item>"392"</item>
@@ -105,10 +106,10 @@
     </string-array>
 
     <string-array name="dur_array" >
-        <item>"1"</item>
-        <item>"2"</item>
-        <item>"5"</item>
-        <item>"10"</item>
+        <item>"1 sec"</item>
+        <item>"2 sec"</item>
+        <item>"5 sec"</item>
+        <item>"10 sec"</item>
     </string-array>
 
 </resources>
