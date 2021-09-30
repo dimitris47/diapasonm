@@ -1,7 +1,9 @@
 package com.dimitris47.diapasonm;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
@@ -34,20 +36,41 @@ public class MainActivity extends AppCompatActivity {
             finish();
             return;
         }
+        SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
+        int freqSpinnerPos = sharedPref.getInt("freqPos", 48);
+        int durSpinnerPos = sharedPref.getInt("durPos", 0);
+
         setContentView(R.layout.activity_main);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         TableLayout table = findViewById(R.id.table);
         freqSpinner = findViewById(R.id.freqSpinner);
-        freqSpinner.setSelection(48);
+        freqSpinner.setSelection(freqSpinnerPos);
         durSpinner = findViewById(R.id.durSpinner);
+        durSpinner.setSelection(durSpinnerPos);
         stopBtn = findViewById(R.id.stopBtn);
+
+        freqSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                SharedPreferences freqPref = com.dimitris47.diapasonm.MainActivity.this.getPreferences(Context.MODE_PRIVATE);
+                SharedPreferences.Editor editor = freqPref.edit();
+                editor.putInt("freqPos", position);
+                editor.apply();
+            }
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {}
+        });
 
         durSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String selected = parent.getItemAtPosition(position).toString();
                 duration = Integer.parseInt(selected.split(" sec")[0]);
+                SharedPreferences durPref = com.dimitris47.diapasonm.MainActivity.this.getPreferences(Context.MODE_PRIVATE);
+                SharedPreferences.Editor editor = durPref.edit();
+                editor.putInt("durPos", position);
+                editor.apply();
             }
             @Override
             public void onNothingSelected(AdapterView<?> parent) {}
