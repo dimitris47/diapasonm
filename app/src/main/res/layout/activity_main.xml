@@ -24,87 +24,101 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:dropDownWidth="match_parent"
-                android:entries="@array/freq_array" />
+                android:entries="@array/freq_array"
+                android:minHeight="48dp" />
 
             <Spinner
                 android:id="@+id/durSpinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:dropDownWidth="match_parent"
-                android:entries="@array/dur_array" />
+                android:entries="@array/dur_array"
+                android:minHeight="48dp" />
 
             <Button
                 android:id="@+id/stopBtn"
-                android:text="@string/stop"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:text="@string/stop" />
 
         </LinearLayout>
 
         <TableLayout
             android:id="@+id/table"
             android:layout_width="match_parent"
-            android:layout_height="576dp">
+            android:layout_height="wrap_content">
 
             <Button
                 android:id="@+id/button0"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/button1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/button7"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/button10"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/button11"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:ignore="SpeakableTextPresentCheck" />
         </TableLayout>
 
     </LinearLayout>
