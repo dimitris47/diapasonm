@@ -3,6 +3,18 @@
     <string name="a4_hz">a4 (Hz):</string>
     <string name="duration_sec">duration (sec):</string>
     <string name="stop">stop</string>
+    <string name="c">C</string>
+    <string name="f_u266f_g_u266d">F♯/G♭</string>
+    <string name="g">G</string>
+    <string name="g_u266f_a_u266d">G♯/A♭</string>
+    <string name="f">F</string>
+    <string name="c_u266f_d_u266d">C♯/D♭</string>
+    <string name="d_u266f_e_u266d">D♯/E♭</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="a">A</string>
+    <string name="a_u266f_b_u266d">A♯/B♭</string>
+    <string name="b">B</string>
 
     <string-array name="freq_array" >
         <item>"a4 = 392Hz"</item>

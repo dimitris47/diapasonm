@@ -19,8 +19,6 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     static ArrayList<Button> buttons = new ArrayList<>();
-    static String[] notes = {"C", "C\u266F/D\u266D", "D", "D\u266F/E\u266D", "E", "F",
-            "F\u266F/G\u266D", "G", "G\u266F/A\u266D", "A", "A\u266F/B\u266D", "B"};
     static double[] defFreq = {261.626, 277.183, 293.665, 311.127, 329.626, 349.228,
             369.994, 391.995, 415.305, 440.000, 466.164, 493.883};
     Spinner freqSpinner;
@@ -79,7 +77,6 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < 12; i++) {
             Button btn = (Button) table.getChildAt(i);
             buttons.add(btn);
-            btn.setText(notes[i]);
             int finalI = i;
             btn.setOnClickListener(v -> {
                 int spinnerPos = freqSpinner.getSelectedItemPosition();
