@@ -9,8 +9,8 @@ android {
         applicationId "com.dimitris47.diapasonm"
         minSdk 16
         targetSdk 30
-        versionCode 7
-        versionName "2.4"
+        versionCode 8
+        versionName "2.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
