@@ -87,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
                 findViewById(R.id.button9),
                 findViewById(R.id.button10),
                 findViewById(R.id.button11)));
+
         for (int i = 0; i < 12; i++) {
             int finalI = i;
             buttons.get(i).setOnClickListener(v -> {
