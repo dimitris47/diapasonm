@@ -10,7 +10,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.Spinner;
-import android.widget.TableLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -42,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
-        TableLayout table = findViewById(R.id.table);
         freqSpinner = findViewById(R.id.freqSpinner);
         freqSpinner.setSelection(freqSpinnerPos);
         durSpinner = findViewById(R.id.durSpinner);
