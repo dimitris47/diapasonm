@@ -15,6 +15,7 @@ import android.widget.TableLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -74,11 +75,21 @@ public class MainActivity extends AppCompatActivity {
             public void onNothingSelected(AdapterView<?> parent) {}
         });
 
+        buttons.addAll(Arrays.asList(findViewById(R.id.button0),
+                findViewById(R.id.button1),
+                findViewById(R.id.button2),
+                findViewById(R.id.button3),
+                findViewById(R.id.button4),
+                findViewById(R.id.button5),
+                findViewById(R.id.button6),
+                findViewById(R.id.button7),
+                findViewById(R.id.button8),
+                findViewById(R.id.button9),
+                findViewById(R.id.button10),
+                findViewById(R.id.button11)));
         for (int i = 0; i < 12; i++) {
-            Button btn = (Button) table.getChildAt(i);
-            buttons.add(btn);
             int finalI = i;
-            btn.setOnClickListener(v -> {
+            buttons.get(i).setOnClickListener(v -> {
                 int spinnerPos = freqSpinner.getSelectedItemPosition();
                 new Tone((defFreq[finalI] * (spinnerPos + 392) / 440), duration);
             });
